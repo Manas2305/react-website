@@ -1,0 +1,62 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.navbar-brand{
+  font-weight: bold;
+}
+
+.menu_style{
+  color: blue;
+  border-bottom: 1px solid black;
+}
+.btn_get_started{
+  border: 1px solid blue;
+  border-radius: 12px;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+}
+.btn_get_started:hover{
+  background-color: lightblue;
+  transition: 1s;
+  color: white;
+}
+
+.bname{ 
+  color: red;
+}
+.header_img{
+  text-align: center;
+}
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0% {
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-5px);
+  }
+}
+@keyframes up-down{
+  0% {
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-5px);
+  }
+}
+
+.footerPart{
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+   bottom: 0;
+   width: 100%;
+   height:auto;   /* Height of the footer */
+   background:#6cf;
+   margin-top: 10px;
+}
